@@ -40,6 +40,7 @@ Cortex-M product line has not been updated for a long time. (There is a 32-bit u
 >
 > - No `mtime` and `mcycle` CSR. No `MachineTimer` interrupt. Use `SYSTICK` core peripheral instead.
 > - No `MachineExternal` interrupt. The external interrupts are handled the same as core interrupts as `mcause` code.
+> - Core interrupts are different, refer "QingKeV*_Processor_Manual.PDF" for details.
 
 Refer: [ch32-data]
 
@@ -60,17 +61,19 @@ Refer: [ch32-data]
   - [CH32X035]/CH32X033 RISC-V4C, USB PD, PIOC
 - CH32L Low Power
   - [CH32L103] RISC-V4C, USB PD, Low Power
-- [CH641] RISC-V2A, USB PD, Wireless Charging
-- [CH643] RISC-V4C, RGB LED Driver, USB PD, PIOC
-- [CH645] RISC-V4C (unreleased), USBHS, USB PD, 100M ETH, USB Hub
-- [CH564] RISC-V4J, USBHS, USB PD, 100M ETH, XBUS, SLV
+- BLE MCU
+  - [CH573]/CH571 RISC-V3A, BLE 4.2
+  - [CH583]/CH582/CH581 RISC-V4A, BLE 5.3
+  - [CH592]/CH591 RISC-V4C, BLE 5.4
+  - [CH32V208] (also appears in CH32V series)
+- Special Interface
+  - [CH569]/CH565 RISC-V3A, USBSS, SerDes, HSPI, BUS8, 1000M ETH
+  - [CH641] RISC-V2A, USB PD, Wireless Charging
+  - [CH643] RISC-V4C, RGB LED Driver, USB PD, PIOC
+  - [CH645] RISC-V4C (unreleased), USBHS, USB Hub, USB PD, 100M ETH
+  - [CH564] RISC-V4J, USBHS, USB PD, 100M ETH, XBUS, SLV
 
-- [CH573]/CH571 RISC-V3A, BLE 4.2
-- [CH583]/CH582/CH581 RISC-V4A, BLE 5.3
-- [CH592]/CH591 RISC-V4C, BLE 5.4
-- [CH569]/CH565 RISC-V3A, USBSS, SerDes, HSPI, BUS8, 1000M ETH
-
-#### Lagacy
+In the list above CH57x, CH58x, CH59x and CH56x are legacy peripheral ones, which means they have an old style of peripherals.
 
 ### Cortex-M
 

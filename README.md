@@ -16,7 +16,7 @@ An unofficial curated list of WCH's 32-bit MCU related code and resources.
   - DS for "DataSheet 数据手册", RM for "Reference Manual 应用手册", EVT for "SDK+Demo Code 开发工具"
   - IC Package and Footprint: [SCHPCB.ZIP](https://www.wch.cn/downloads/SCHPCB_ZIP.html) [PACKAGE.PDF](https://www.wch.cn/downloads/PACKAGE_PDF.html)
 - **Github Organization**: [openwch](https://github.com/openwch) - organized by MCU series. Documents, code, demo are included.
-  - Arduion Core: [openwch/arduino_core_ch32](https://github.com/openwch/arduino_core_ch32)
+  - Arduion Support: [openwch/arduino_core_ch32](https://github.com/openwch/arduino_core_ch32)
   - OpenOCD (Binary): [openwch/openocd_wch](https://github.com/openwch/openocd_wch)
 - MCU List: [MCU+](https://www.wch-ic.com/products/categories/47.html?pid=5)
 - MCU Selection: [MCU](https://special.wch.cn/zh_cn/mcu/#/)(CN) [MCU](https://special.wch.cn/en/mcu/#/)(EN)
@@ -58,12 +58,13 @@ Refer: [ch32-data]
     - [CH32V006]/CH32V005 RISC-V2C (unreleased)
     - ~~[CH32V007]/CH32M007 RISC-V2C (unreleased) - M for Motor Control~~ DS revoked?
 - CH32X0 Special IO
-  - [CH32X035]/CH32X033 RISC-V4C, USB PD, PIOC
+  - [CH32X035]/CH32X033 RISC-V4C, USB PD(CH32X035), PIOC
 - CH32L Low Power
   - [CH32L103] RISC-V4C, USB PD, Low Power
 - BLE MCU
   - [CH573]/CH571 RISC-V3A, BLE 4.2
   - [CH583]/CH582/CH581 RISC-V4A, BLE 5.3
+  - [CH585]/CH584 RISC-V3C, BLE 5.4, USBHS(CH585), NFC
   - [CH592]/CH591 RISC-V4C, BLE 5.4
   - [CH32V208] (also appears in CH32V series)
 - Special Interface
@@ -110,6 +111,7 @@ In the list above CH57x, CH58x, CH59x and CH56x are legacy peripheral ones, whic
 [CH578/7]: https://www.wch.cn/products/CH578_7.html
 [CH579]: https://www.wch.cn/products/CH579.html
 [CH583]: https://www.wch.cn/products/CH583.html
+[CH585]: https://www.wch.cn/products/CH585.html
 [CH592]: https://www.wch.cn/products/CH592.html
 [CH641]: https://www.wch.cn/products/CH641.html
 [CH643]: https://www.wch.cn/products/CH643.html
